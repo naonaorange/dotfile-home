@@ -29,7 +29,4 @@ NeoBundleCheck
 
 
 "設定ファイルの読み込み
-runtime! vimrc/*.vimrc
-
-
-
+runtime! vimrcDir/*.vimrc
