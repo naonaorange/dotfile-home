@@ -2,6 +2,7 @@
 "Neobundle set up
 "reference to  https://github.com/Shougo/neobundle.vim/blob/master/README.md
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
 set nocompatible
 
 if has('vim_starting')
@@ -29,4 +30,4 @@ NeoBundleCheck
 
 
 "設定ファイルの読み込み
-runtime! vimrcDir/*.vimrc
+runtime! ~/.vimrcDir/*.vimrc
