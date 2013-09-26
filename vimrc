@@ -22,6 +22,8 @@ NeoBundle 'Shougo/neocomplcache'
 NeoBundle 'Shougo/neosnippet'
 NeoBundle 'Shougo/vimshell'
 NeoBundle 'Shougo/vimfiler'
+NeoBundle 'fuenor/im_control.vim'
+
 
 filetype plugin on
 filetype indent on
