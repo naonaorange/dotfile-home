@@ -27,6 +27,7 @@ NeoBundle 'Shougo/vimfiler'
 NeoBundle 'fuenor/im_control.vim'
 NeoBundle 'thinca/vim-quickrun'		"vim内でコンパイルできる
 NeoBundle 'nathanaelkane/vim-indent-guides'	"インデントを見やすくする
+NeoBundle 'glidenote/memolist.vim'	"vimでメモ
 
 filetype plugin on
 filetype indent on
