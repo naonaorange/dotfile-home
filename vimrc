@@ -24,15 +24,24 @@ call neobundle#rc(expand('~/.vim/bundle/'))
 " Let NeoBundle manage NeoBundle
 NeoBundleFetch 'Shougo/neobundle.vim'
 " Recommended to install
-NeoBundle 'Shougo/vimproc'
+NeoBundle 'Shougo/vimproc', {
+    \ 'build' : {
+    \     'windows' : 'make -f make_mingw32.mak',
+    \     'cygwin' : 'make -f make_cygwin.mak',
+    \     'mac' : 'make -f make_mac.mak',
+    \     'unix' : 'make -f make_unix.mak',
+    \    },
+    \ }
 "NeoBundle 'vim-scripts/sudo.vim'
-NeoBundle 'chrisbra/SudoEdit.vim'
+NeoBundle 'chrisbra/SudoEdit.vim'	"sudo.vimのからforkしたもの
 NeoBundle 'Shougo/unite.vim'
 NeoBundle 'Shougo/neocomplcache'
 NeoBundle 'Shougo/neosnippet'
 NeoBundle 'Shougo/vimshell'
 NeoBundle 'Shougo/vimfiler'
 NeoBundle 'fuenor/im_control.vim'
+NeoBundle 'thinca/vim-quickrun'		"vim内でコンパイルできる
+NeoBundle 'nathanaelkane/vim-indent-guides'	"インデントを見やすくする
 
 
 filetype plugin on
