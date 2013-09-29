@@ -34,8 +34,10 @@ filetype indent on
 NeoBundleCheck
 
 "設定ファイルの読み込み
-set runtimepath+=~/dotfile-home/
-runtime! vimrcDir/*.vimrc
+"set runtimepath+=~/dotfile-home/
+"runtime! vimrcDir/*.vimrc
+set runtimepath+=~/.vim/vimrcDir/
+runtime! *.vimrc
 
 
 
