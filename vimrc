@@ -29,6 +29,8 @@ NeoBundle 'thinca/vim-quickrun'		"vim内でコンパイルできる
 NeoBundle 'nathanaelkane/vim-indent-guides'	"インデントを見やすくする
 NeoBundle 'glidenote/memolist.vim'	"vimでメモ
 
+NeoBundle 'soramugi/auto-ctags.vim'		"ctagと連携をしやすくする
+
 filetype plugin on
 filetype indent on
 
