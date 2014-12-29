@@ -6,7 +6,9 @@ set nocompatible
 if has('vim_starting')
   set runtimepath+=~/.vim/bundle/neobundle.vim
 endif
-call neobundle#rc(expand('~/.vim/bundle/'))
+"前のコメントアウト
+"call neobundle#rc(expand('~/.vim/bundle/'))
+call neobundle#begin(expand('~/.vim/bundle/'))
 " Let NeoBundle manage NeoBundle
 NeoBundleFetch 'Shougo/neobundle.vim'
 " Recommended to install
@@ -30,6 +32,8 @@ NeoBundle 'nathanaelkane/vim-indent-guides'	"インデントを見やすくす�
 NeoBundle 'glidenote/memolist.vim'	"vimでメモ
 
 NeoBundle 'soramugi/auto-ctags.vim'		"ctagと連携をしやすくする
+
+call neobundle#end()
 
 filetype plugin on
 filetype indent on
