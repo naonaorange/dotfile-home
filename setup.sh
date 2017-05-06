@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ $1 == "-install" ]
+if [ $1 == "--install" ]
 then
   echo "Install Neobundle!"
   mkdir -p ~/.vim/bundle
