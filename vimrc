@@ -20,16 +20,16 @@ NeoBundle 'Shougo/vimproc', {
     \     'unix' : 'make -f make_unix.mak',
     \    },
     \ }
-NeoBundle 'chrisbra/SudoEdit.vim'	"sudo.vimのからforkしたもの
+"NeoBundle 'chrisbra/SudoEdit.vim'	"sudo.vimのからforkしたもの
 NeoBundle 'Shougo/unite.vim'
 NeoBundle 'Shougo/neocomplcache'
 NeoBundle 'Shougo/neosnippet'
-NeoBundle 'Shougo/vimshell'
-NeoBundle 'Shougo/vimfiler'
-NeoBundle 'fuenor/im_control.vim'
-NeoBundle 'thinca/vim-quickrun'		"vim内でコンパイルできる
-NeoBundle 'nathanaelkane/vim-indent-guides'	"インデントを見やすくする
-NeoBundle 'glidenote/memolist.vim'	"vimでメモ
+"NeoBundle 'Shougo/vimshell'
+"NeoBundle 'Shougo/vimfiler'
+"NeoBundle 'fuenor/im_control.vim'
+"NeoBundle 'thinca/vim-quickrun'		"vim内でコンパイルできる
+"NeoBundle 'nathanaelkane/vim-indent-guides'	"インデントを見やすくする
+"NeoBundle 'glidenote/memolist.vim'	"vimでメモ
 
 "NeoBundle 'soramugi/auto-ctags.vim'		"ctagと連携をしやすくする
 
